@@ -1,5 +1,13 @@
 # emotion-based-music-ai
 
-just clone this repo or download
+- Clone the app using ->
+  git clone "URL"
 
-and run app.py 
+- Take the latest Pull ->
+  git pull
+
+- Navigate to ProductUI/ClientApp ->
+  npm install
+
+- Start the App ->
+  npm run dev
