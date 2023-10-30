@@ -21,3 +21,5 @@ export const postData = async (endpoint: string, data: any) => {
     throw error;
   }
 };
+
+// Setup The API
