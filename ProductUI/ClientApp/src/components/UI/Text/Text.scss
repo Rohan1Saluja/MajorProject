@@ -1,0 +1,80 @@
+@import "../../../styles/colors";
+@import "../../../styles/typography";
+
+.text {
+  color: $text-color;
+  line-height: 2rem;
+}
+
+.white-text {
+  color: $light-color;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-family: FoundryMonolineBold;
+}
+.large {
+  font-size: 1.6rem;
+}
+
+.styled-font {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  font-family: FoundryMonolineBold;
+}
+
+.description-small {
+  font-size: 1rem;
+}
+
+.description {
+  font-size: 1.2rem;
+}
+
+.bold {
+  font-family: FoundryMonolineBold;
+}
+.light {
+  color: rgb(99, 99, 99);
+}
+
+.accent {
+  color: #4f46e5;
+}
+
+.home-text-description {
+  position: absolute;
+  width: 31.25rem;
+  height: 7.25rem;
+  left: 6.25rem;
+  top: 25.5rem;
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.75rem;
+}
+
+.description-bold {
+  font-size: 1.2rem;
+  font-family: FoundryMonolineBold;
+}
+
+.light-text {
+  color: rgb(99, 99, 99);
+  font-family: FoundryMonolineLight;
+  font-size: 0.8rem;
+}
+
+.text.underlined {
+  text-decoration-line: underline;
+  color: $accent-color;
+}
+
+.tax-description {
+  color: gray;
+  font-size: small;
+  margin: 0 0 -1rem 0;
+}

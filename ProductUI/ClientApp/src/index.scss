@@ -1,0 +1,49 @@
+@import "styles/typography";
+@import "styles/colors";
+@import "styles/global";
+
+* {
+  box-sizing: border-box;
+}
+
+.left-align {
+  text-align: left;
+}
+
+@font-face {
+  font-family: FoundryMonolineBold;
+  src: url("./fonts/foundrymonoline-bold.ttf");
+}
+
+@font-face {
+  font-family: FoundryMonolineExtraBold;
+  src: url("fonts/foundrymonoline-extrabold.ttf");
+}
+
+@font-face {
+  font-family: FoundryMonolineLight;
+  src: url("fonts/foundrymonoline-light.ttf");
+}
+
+@font-face {
+  font-family: FoundryMonolineMedium;
+  src: url("fonts/foundrymonoline-medium.ttf");
+}
+
+@font-face {
+  font-family: FoundryMonolineRegular;
+  src: url("fonts/foundrymonoline-regular.ttf");
+}
+
+html {
+  font-size: 16px;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  color: $primary-color;
+  font-family: FoundryMonolineRegular, monospace;
+}

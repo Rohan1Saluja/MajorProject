@@ -1,0 +1,27 @@
+.chips-container {
+  display: flex;
+  flex-wrap: wrap;
+  &.vertical {
+    justify-content: space-between;
+    .chip {
+      height: fit-content;
+      border-radius: 4px;
+      margin: 1rem 1rem 1rem 0;
+      min-width: 40%;
+      font-size: 1rem;
+    }
+  }
+  .chip {
+    height: 40px;
+    border-radius: 4px;
+    margin: 1rem 1rem 1rem 0;
+    min-width: 40%;
+    font-size: 1rem;
+  }
+  .chip.selected {
+    border-radius: 4px;
+    border: 1px solid #4F46E5;
+    background: #F2F1FF;
+    color: #4F46E5;
+  }
+}

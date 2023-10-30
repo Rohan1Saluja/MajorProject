@@ -1,0 +1,16 @@
+.page-loader {
+  height: calc(100vh);
+  width: calc(100vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  &.overlay {
+    background-color: #ffffff;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+  }
+}

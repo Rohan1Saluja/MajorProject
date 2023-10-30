@@ -1,0 +1,22 @@
+.single-select.language-select {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  height: 50px;
+  z-index: 1;
+  .MuiInputBase-root {
+    border: 1px solid black;
+  }
+}
+
+.single-select.small {
+  width: 10rem;
+}
+
+.MuiFormControl-root {
+  width: 100%;
+  .MuiSelect-select {
+    padding: 10px;
+  }
+}
+
